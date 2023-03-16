@@ -4,7 +4,7 @@ const sequelize = require("../config/connection");
 
 class Comment extends Model {}
 
-Post.init(
+Comment.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -42,7 +42,7 @@ Post.init(
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: "event",
+    modelName: "comment",
   }
 );
 
