@@ -29,10 +29,10 @@ Comment.init(
       },
     },
 
-    userName: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
+    // userName: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    // },
     commentBody: {
       type: DataTypes.STRING,
       allowNull: false,
